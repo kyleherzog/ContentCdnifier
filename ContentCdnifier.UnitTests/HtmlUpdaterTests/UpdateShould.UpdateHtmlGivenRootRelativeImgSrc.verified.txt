@@ -1,0 +1,1 @@
+﻿<html><body><img src="https://cdn.example.com/images/image.jpg"></body></html>

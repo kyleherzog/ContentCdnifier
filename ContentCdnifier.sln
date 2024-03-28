@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29EBDD9D-0262-483C-A7D9-93FD2D923CC1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentCdnifier", "ContentCdnifier\ContentCdnifier.csproj", "{805235F8-52C1-4FC0-AB27-DF3A798A0769}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentCdnifier.UnitTests", "ContentCdnifier.UnitTests\ContentCdnifier.UnitTests.csproj", "{EA4CFEB4-AED2-4BA3-B7A4-A5B753535F1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{805235F8-52C1-4FC0-AB27-DF3A798A0769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805235F8-52C1-4FC0-AB27-DF3A798A0769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805235F8-52C1-4FC0-AB27-DF3A798A0769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805235F8-52C1-4FC0-AB27-DF3A798A0769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4CFEB4-AED2-4BA3-B7A4-A5B753535F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4CFEB4-AED2-4BA3-B7A4-A5B753535F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4CFEB4-AED2-4BA3-B7A4-A5B753535F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4CFEB4-AED2-4BA3-B7A4-A5B753535F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B09EF0C8-032E-498A-A8CB-42761BA5DA0A}
+	EndGlobalSection
+EndGlobal
