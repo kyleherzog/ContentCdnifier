@@ -19,5 +19,6 @@ public class ContentCdnifierOptions
         { "script", ["src"] },
         { "link", ["href"] },
         { "src", ["src", "data-src", "srcset", "data-srcset"] },
+        { "source", ["src", "data-src"] },
     };
 }

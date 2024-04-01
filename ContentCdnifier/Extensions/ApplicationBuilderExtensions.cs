@@ -15,7 +15,7 @@ public static class ApplicationBuilderExtensions
     /// <param name="builder">The <see cref="IApplicationBuilder"/> instance to which the middleware is to be added.</param>
     /// <param name="optionsAction">An optional delegate to configure the <see cref="ContentCdnifierOptions"/> instance.</param>
     /// <returns>The original <see cref="IApplicationBuilder"/> instance which was passed in.</returns>
-    public static IApplicationBuilder Cdnify(this IApplicationBuilder builder, Action<ContentCdnifierOptions>? optionsAction = null)
+    public static IApplicationBuilder UseContentCdnifier(this IApplicationBuilder builder, Action<ContentCdnifierOptions>? optionsAction = null)
     {
         var options = new ContentCdnifierOptions();
         var configuration = builder.ApplicationServices.GetRequiredService<IConfiguration>();

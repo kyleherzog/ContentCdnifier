@@ -10,7 +10,7 @@
       <Version>1.0</Version>
       <Authors>Kyle Herzog</Authors>
       <PackageTags>img middleware</PackageTags>
-      <Description>Provides ASP.NET core middleware to rewrite relative local static file links to an external CDN.point to </Description>
+      <Description>Provides ASP.NET core middleware to optionally rewrite relative local static file links to an external CDN.</Description>
       <PackageProjectUrl>https://github.com/kyleherzog/StaticFilesFromCdn</PackageProjectUrl>
       <RepositoryUrl>https://github.com/kyleherzog/StaticFilesFromCdn</RepositoryUrl>
       <PublishRepositoryUrl>true</PublishRepositoryUrl>
