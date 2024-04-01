@@ -22,6 +22,6 @@ public static class ApplicationBuilderExtensions
         configuration.GetSection("ContentCdnifier").Bind(options);
         optionsAction?.Invoke(options);
 
-        return builder.UseMiddleware<ContentCdnifierMiddleware>();
+        return builder.UseMiddleware<ContentCdnifierMiddleware>(options);
     }
 }
