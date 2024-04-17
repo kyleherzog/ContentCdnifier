@@ -6,7 +6,7 @@ internal static class HtmlUpdaterFactory
     {
         return new HtmlUpdater(new ContentCdnifierOptions
         {
-            CdnHost = "https://cdn.example.com",
+            CdnHost = "https://cdn.example.com/content/",
         });
     }
 }

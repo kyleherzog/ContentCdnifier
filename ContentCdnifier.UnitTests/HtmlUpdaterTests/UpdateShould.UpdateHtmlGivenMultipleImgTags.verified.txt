@@ -1,1 +1,1 @@
-﻿<html><body><div><img src="https://cdn.example.com/images/image.jpg"></div><img src="https://cdn.example.com/images/image2.jpg"></body></html>
+﻿<html><body><div><img src="https://cdn.example.com/content/images/image.jpg"></div><img src="https://cdn.example.com/content/images/image2.jpg"></body></html>
