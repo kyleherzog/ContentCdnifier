@@ -18,7 +18,7 @@ internal class HtmlUpdater
             return string.Empty;
         }
 
-        if (string.IsNullOrEmpty(Options.CdnHost))
+        if (Options.CdnAddress is null)
         {
             return html;
         }
@@ -45,7 +45,7 @@ internal class HtmlUpdater
 
                         if (!url.IsAbsoluteUri)
                         {
-                            var updatedValue = new Uri(new Uri(Options.CdnHost), attributeValue);
+                            var updatedValue = new Uri(Options.CdnAddress, attributeValue.TrimStart('/'));
                             tag.SetAttributeValue(attributeName, updatedValue.ToString());
                         }
                     }
