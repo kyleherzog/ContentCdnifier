@@ -33,3 +33,10 @@ app.UseContentCdnifier(x =>
     x.TagAttributeMappings["script"] = ["src", "data-src"];
 );
 ```
+
+## Excluding Tags
+Specific HTML tags can be excluded from modifications by setting the `data-cdnify` attribute to false.
+
+```html
+<img src='image.jpg' data-content-cdnify='false' />
+```
