@@ -43,6 +43,19 @@ public class UpdateShould : VerifyBase
     }
 
     [TestMethod]
+    public void NotUpdateHtmlGivenContentCdnifierFalse()
+    {
+        var html =
+"""
+<html><body><img src="/image.jpg" data-cdnify="false"></body></html>
+""";
+        var updater = HtmlUpdaterFactory.Create();
+        var updatedHtml = updater.Update(html);
+
+        Assert.AreEqual(html, updatedHtml);
+    }
+
+    [TestMethod]
     public void NotUpdateHtmlGivenNoImgSrc()
     {
         var html =

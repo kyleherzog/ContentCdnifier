@@ -28,7 +28,7 @@ internal class HtmlUpdater
 
         foreach (var tagName in Options.TagAttributeMappings.Keys)
         {
-            var tagsFound = doc.DocumentNode.SelectNodes($"//{tagName}");
+            var tagsFound = doc.DocumentNode.SelectNodes($"//{tagName}[not(@data-cdnify='false')]");
             if (tagsFound is null)
             {
                 continue;
